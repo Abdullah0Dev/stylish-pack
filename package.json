@@ -1,0 +1,38 @@
+{
+  "name": "stylish-pack",
+  "version": "1.0.1",
+  "description": "Your go-to React Native CLI template packed with **amazing tools** for building robust apps quickly!",
+  "license": "ISC",
+  "author": {
+    "name": "Dev Minds",
+    "url": "https://www.youtube.com/@Dev-Minds",
+    "email": "support@devmindslab.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abdullah0Dev/stylish-pack"
+  },
+  "bugs": {
+    "url": "https://github.com/Abdullah0Dev/stylish-pack/issues"
+  },
+  "homepage": "https://github.com/Abdullah0Dev/stylish-pack#readme",
+
+  "keywords": [
+    "react-native",
+    "react-native-template",
+    "react-native-cli",
+    "react-native-cli-template-with-navigation",
+    "tailwind-css",
+    "reanimated",
+    "starter-template",
+    "starter package for react native cli",
+    "react native template",
+    "react native cli starter code",
+    "react native with reanimated",
+    "react native with reanimated & navigation"
+  ],
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
