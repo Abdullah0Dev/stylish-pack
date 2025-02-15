@@ -28,7 +28,7 @@ This template includes:
 ### 1️⃣ Initialize a New Project:
 
 ```bash
-npx react-native init MyAwesomeApp --template with-router-tailwind-reanimated
+npx @react-native-community/cli init MyAwesomeApp --template with-router-tailwind-reanimated
 ```
 
 ### 2️⃣ Navigate to Your App Directory:

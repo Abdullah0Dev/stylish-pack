@@ -1,6 +1,6 @@
 {
-  "name": "stylish-pack",
-  "version": "1.0.1",
+  "name": "devminds",
+  "version": "0.1.0",
   "description": "Your go-to React Native CLI template packed with **amazing tools** for building robust apps quickly!",
   "license": "ISC",
   "author": {
@@ -16,7 +16,6 @@
     "url": "https://github.com/Abdullah0Dev/stylish-pack/issues"
   },
   "homepage": "https://github.com/Abdullah0Dev/stylish-pack#readme",
-
   "keywords": [
     "react-native",
     "react-native-template",
