@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* meTubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* meTubeTests.m */; };
+		00E356F31AD99517003FC87E /* stylish-packTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* stylish-packTests.m */; };
 		043EC8152D3FBF90006B4065 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 043EC80E2D3FBF90006B4065 /* SimpleLineIcons.ttf */; };
 		043EC8182D3FBF90006B4065 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 043EC8022D3FBF90006B4065 /* FontAwesome5_Brands.ttf */; };
 		043EC81A2D3FBF90006B4065 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 043EC8042D3FBF90006B4065 /* FontAwesome5_Solid.ttf */; };
@@ -28,7 +28,7 @@
 		04FF25C92D3F9AC40038B4E2 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04FF25B42D3F9AC40038B4E2 /* Fontisto.ttf */; };
 		04FF25CA2D3F9AC40038B4E2 /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04FF25B32D3F9AC40038B4E2 /* FontAwesome6_Solid.ttf */; };
 		06965DA4FA614EE1A4321D85 /* Roboto-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44EB5F2F480D450B8677311A /* Roboto-SemiBold.ttf */; };
-		0C80B921A6F3F58F76C31292 /* libPods-meTube.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-meTube.a */; };
+		0C80B921A6F3F58F76C31292 /* libPods-stylish-pack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-stylish-pack.a */; };
 		0DBC0F7D237D44D9A0FCF933 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C0F5EF7CD1C4D96A377C1BB /* Roboto-Medium.ttf */; };
 		108EC2E4898E3F02CE8F15D5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		134A38694F634558A3B5387B /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 268ADBC67B1C4C45BEE0A0E8 /* Roboto-Light.ttf */; };
@@ -38,7 +38,7 @@
 		330B3991FD494E39859F155D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2192DED9158B4EC096B96E14 /* Roboto-Regular.ttf */; };
 		5B53A7830693469E9EA8FE6C /* Roboto-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9278046A1C9A48F3AC1E3F1F /* Roboto-ExtraLight.ttf */; };
 		6D3A9E8D7F9C49938A499901 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81108DD2F76B42508D448E55 /* Roboto-Thin.ttf */; };
-		7699B88040F8A987B510C191 /* libPods-meTube-meTubeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-meTube-meTubeTests.a */; };
+		7699B88040F8A987B510C191 /* libPods-stylish-pack-stylish-packTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-stylish-pack-stylish-packTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		872E6A8E356A4BA4A05090CA /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CA07251805B44F380ED1ACD /* Roboto-Bold.ttf */; };
 		EBDD58DAD6E140E7A136A6D4 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB08A21644C4454AA075DF07 /* Roboto-Black.ttf */; };
@@ -51,14 +51,14 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = meTube;
+			remoteInfo = stylish-pack;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* meTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* stylish-packTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stylish-packTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* meTubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meTubeTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* stylish-packTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stylish-packTests.m; sourceTree = "<group>"; };
 		043EC7FD2D3FBF90006B4065 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
 		043EC7FE2D3FBF90006B4065 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
 		043EC7FF2D3FBF90006B4065 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
@@ -97,25 +97,25 @@
 		04FF25B92D3F9AC40038B4E2 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		04FF25BA2D3F9AC40038B4E2 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		04FF25BB2D3F9AC40038B4E2 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* meTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = meTube/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = meTube/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = meTube/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = meTube/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = meTube/main.m; sourceTree = "<group>"; };
-		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = meTube/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-meTube-meTubeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-meTube-meTubeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* stylish-pack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stylish-pack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = stylish-pack/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = stylish-pack/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = stylish-pack/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = stylish-pack/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = stylish-pack/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = stylish-pack/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-stylish-pack-stylish-packTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stylish-pack-stylish-packTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2192DED9158B4EC096B96E14 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		268ADBC67B1C4C45BEE0A0E8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-meTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meTube.debug.xcconfig"; path = "Target Support Files/Pods-meTube/Pods-meTube.debug.xcconfig"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-stylish-pack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stylish-pack.debug.xcconfig"; path = "Target Support Files/Pods-stylish-pack/Pods-stylish-pack.debug.xcconfig"; sourceTree = "<group>"; };
 		44EB5F2F480D450B8677311A /* Roboto-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-SemiBold.ttf"; path = "../src/assets/fonts/Roboto-SemiBold.ttf"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-meTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meTube.release.xcconfig"; path = "Target Support Files/Pods-meTube/Pods-meTube.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-meTube-meTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meTube-meTubeTests.debug.xcconfig"; path = "Target Support Files/Pods-meTube-meTubeTests/Pods-meTube-meTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-meTube.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-meTube.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5709B34CF0A7D63546082F79 /* Pods-stylish-pack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stylish-pack.release.xcconfig"; path = "Target Support Files/Pods-stylish-pack/Pods-stylish-pack.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-stylish-pack-stylish-packTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stylish-pack-stylish-packTests.debug.xcconfig"; path = "Target Support Files/Pods-stylish-pack-stylish-packTests/Pods-stylish-pack-stylish-packTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-stylish-pack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-stylish-pack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0F5EF7CD1C4D96A377C1BB /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		81108DD2F76B42508D448E55 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = meTube/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-meTube-meTubeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-meTube-meTubeTests.release.xcconfig"; path = "Target Support Files/Pods-meTube-meTubeTests/Pods-meTube-meTubeTests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = stylish-pack/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-stylish-pack-stylish-packTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stylish-pack-stylish-packTests.release.xcconfig"; path = "Target Support Files/Pods-stylish-pack-stylish-packTests/Pods-stylish-pack-stylish-packTests.release.xcconfig"; sourceTree = "<group>"; };
 		8CA07251805B44F380ED1ACD /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		9278046A1C9A48F3AC1E3F1F /* Roboto-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ExtraLight.ttf"; path = "../src/assets/fonts/Roboto-ExtraLight.ttf"; sourceTree = "<group>"; };
 		CB08A21644C4454AA075DF07 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-meTube-meTubeTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-stylish-pack-stylish-packTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,20 +136,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-meTube.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-stylish-pack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* meTubeTests */ = {
+		00E356EF1AD99517003FC87E /* stylish-packTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* meTubeTests.m */,
+				00E356F21AD99517003FC87E /* stylish-packTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = meTubeTests;
+			path = stylish-packTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -212,7 +212,7 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* meTube */ = {
+		13B07FAE1A68108700A75B9A /* stylish-pack */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -224,15 +224,15 @@
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				04FF25BC2D3F9AC40038B4E2 /* Fonts */,
 			);
-			name = meTube;
+			name = stylish-pack;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-meTube.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-meTube-meTubeTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-stylish-pack.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-stylish-pack-stylish-packTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -247,9 +247,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* meTube */,
+				13B07FAE1A68108700A75B9A /* stylish-pack */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* meTubeTests */,
+				00E356EF1AD99517003FC87E /* stylish-packTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -264,8 +264,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* meTube.app */,
-				00E356EE1AD99517003FC87E /* meTubeTests.xctest */,
+				13B07F961A680F5B00A75B9A /* stylish-pack.app */,
+				00E356EE1AD99517003FC87E /* stylish-packTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -289,10 +289,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-meTube.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-meTube.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-meTube-meTubeTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-meTube-meTubeTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-stylish-pack.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-stylish-pack.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-stylish-pack-stylish-packTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-stylish-pack-stylish-packTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -300,9 +300,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* meTubeTests */ = {
+		00E356ED1AD99517003FC87E /* stylish-packTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "meTubeTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "stylish-packTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -316,14 +316,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = meTubeTests;
-			productName = meTubeTests;
-			productReference = 00E356EE1AD99517003FC87E /* meTubeTests.xctest */;
+			name = stylish-packTests;
+			productName = stylish-packTests;
+			productReference = 00E356EE1AD99517003FC87E /* stylish-packTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* meTube */ = {
+		13B07F861A680F5B00A75B9A /* stylish-pack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "meTube" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "stylish-pack" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -337,9 +337,9 @@
 			);
 			dependencies = (
 			);
-			name = meTube;
-			productName = meTube;
-			productReference = 13B07F961A680F5B00A75B9A /* meTube.app */;
+			name = stylish-pack;
+			productName = stylish-pack;
+			productReference = 13B07F961A680F5B00A75B9A /* stylish-pack.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -360,7 +360,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "meTube" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "stylish-pack" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -373,8 +373,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* meTube */,
-				00E356ED1AD99517003FC87E /* meTubeTests */,
+				13B07F861A680F5B00A75B9A /* stylish-pack */,
+				00E356ED1AD99517003FC87E /* stylish-packTests */,
 			);
 		};
 /* End PBXProject section */
@@ -450,15 +450,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-meTube/Pods-meTube-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-stylish-pack/Pods-stylish-pack-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-meTube/Pods-meTube-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-stylish-pack/Pods-stylish-pack-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-meTube/Pods-meTube-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stylish-pack/Pods-stylish-pack-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -476,7 +476,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-meTube-meTubeTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-stylish-pack-stylish-packTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -498,7 +498,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-meTube-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-stylish-pack-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -511,15 +511,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-meTube-meTubeTests/Pods-meTube-meTubeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-stylish-pack-stylish-packTests/Pods-stylish-pack-stylish-packTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-meTube-meTubeTests/Pods-meTube-meTubeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-stylish-pack-stylish-packTests/Pods-stylish-pack-stylish-packTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-meTube-meTubeTests/Pods-meTube-meTubeTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stylish-pack-stylish-packTests/Pods-stylish-pack-stylish-packTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -528,15 +528,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-meTube/Pods-meTube-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-stylish-pack/Pods-stylish-pack-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-meTube/Pods-meTube-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-stylish-pack/Pods-stylish-pack-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-meTube/Pods-meTube-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stylish-pack/Pods-stylish-pack-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -545,15 +545,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-meTube-meTubeTests/Pods-meTube-meTubeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-stylish-pack-stylish-packTests/Pods-stylish-pack-stylish-packTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-meTube-meTubeTests/Pods-meTube-meTubeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-stylish-pack-stylish-packTests/Pods-stylish-pack-stylish-packTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-meTube-meTubeTests/Pods-meTube-meTubeTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stylish-pack-stylish-packTests/Pods-stylish-pack-stylish-packTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -563,7 +563,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* meTubeTests.m in Sources */,
+				00E356F31AD99517003FC87E /* stylish-packTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,7 +581,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* meTube */;
+			target = 13B07F861A680F5B00A75B9A /* stylish-pack */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -589,14 +589,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-meTube-meTubeTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-stylish-pack-stylish-packTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = meTubeTests/Info.plist;
+				INFOPLIST_FILE = stylish-packTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -610,17 +610,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meTube.app/meTube";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stylish-pack.app/stylish-pack";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-meTube-meTubeTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-stylish-pack-stylish-packTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = meTubeTests/Info.plist;
+				INFOPLIST_FILE = stylish-packTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -634,19 +634,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meTube.app/meTube";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stylish-pack.app/stylish-pack";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-meTube.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-stylish-pack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = meTube/Info.plist;
+				INFOPLIST_FILE = stylish-pack/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -659,7 +659,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = meTube;
+				PRODUCT_NAME = stylish-pack;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -668,12 +668,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-meTube.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-stylish-pack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = meTube/Info.plist;
+				INFOPLIST_FILE = stylish-pack/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -686,7 +686,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = meTube;
+				PRODUCT_NAME = stylish-pack;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -849,7 +849,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "meTubeTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "stylish-packTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -858,7 +858,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "meTube" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "stylish-pack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -867,7 +867,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "meTube" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "stylish-pack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

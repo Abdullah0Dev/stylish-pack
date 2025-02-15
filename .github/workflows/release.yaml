@@ -1,0 +1,76 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "The version of the react-native we the template to use in this release. For example 0.75.0-rc.0"
+        required: true
+        type: string
+      is_latest_on_npm:
+        description: "Whether we want to tag this template release as `latest` on NPM"
+        required: true
+        type: boolean
+        default: false
+      dry_run:
+        description: "Run without making persistent changes to git or npm"
+        type: boolean
+        default: true
+
+jobs:
+  publish_template:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Safeguard against branch name
+        run: |
+          if [[ "$GITHUB_REF_NAME" != *-stable ]]; then
+            echo "Error: This workflow can only be executed from a branch ending with '-stable'."
+            exit 1
+          fi
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+      - name: Setup node.js
+        uses: actions/setup-node@v4.0.0
+        with:
+          node-version: 18
+          registry-url: 'https://registry.npmjs.org'
+      - name: Determine new template version
+        run: echo "VERSION=$(./scripts/bumpedTemplateVersion.sh ${{ inputs.version }})" >> $GITHUB_ENV
+      - name: Update versions to input one
+        run: node ./scripts/updateTemplateVersion.js $VERSION
+      - name: Update template/package.json to nightly react-native + @react-native
+        run: node ./scripts/updateReactNativeVersion.js "${{ inputs.version }}"
+      - name: Create corresponding commit & git tag
+        run: |
+          GIT=(echo git)
+          if [ "${{ inputs.dry_run }}" = "false" ]; then
+            GIT=(git)
+          fi
+          "${GIT[@]}" config --global user.name 'React Native Bot'
+          "${GIT[@]}" config --global user.email 'bot@reactnative.dev'
+          if [ -z "$("${GIT[@]}" status --porcelain)" ]; then
+            echo "No changes, a previous release might have failed at the publish step. Continue to retry."
+            exit 0
+          fi
+          "${GIT[@]}" commit -am "Bumping template to $VERSION"
+          "${GIT[@]}" push
+          "${GIT[@]}" tag $VERSION
+          "${GIT[@]}" push --tags
+      - name: Publish on NPM (with tag if needed)
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          args=(--dry-run)
+          if [ "${{ inputs.dry_run }}" = "false" ]; then
+            args=()
+          fi
+          IS_LATEST_ON_NPM="${{ inputs.is_latest_on_npm }}"
+          if [[ "$IS_LATEST_ON_NPM" == "true" ]]; then
+            npm publish --tag latest "${args[@]}"
+          elif [[ "$VERSION" == *"rc"* ]]; then
+            npm publish --tag next "${args[@]}"
+          elif [[ "$GITHUB_REF_NAME" == *"-stable" ]]; then
+            npm publish --tag "$GITHUB_REF_NAME" "${args[@]}"
+          else
+            npm publish "${args[@]}"
+          fi

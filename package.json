@@ -1,6 +1,6 @@
 {
   "name": "devminds",
-  "version": "0.1.9",
+  "version": "0.2.7",
   "description": "Your go-to React Native CLI template packed with **amazing tools** for building robust apps quickly!",
   "license": "ISC",
   "author": {
@@ -20,6 +20,7 @@
   },
   "files": [
     "template/*",
+    "template/scripts/*",
     "template.config.js"
   ],
   "dependencies": {},
@@ -44,6 +45,7 @@
   ],
   "type": "commonjs",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "node ./template/scripts/post-init.js"
   }
 }
