@@ -1,6 +1,6 @@
 {
   "name": "devminds",
-  "version": "0.1.2",
+  "version": "0.1.9",
   "description": "Your go-to React Native CLI template packed with **amazing tools** for building robust apps quickly!",
   "license": "ISC",
   "author": {
@@ -14,6 +14,18 @@
   },
   "bugs": {
     "url": "https://github.com/Abdullah0Dev/stylish-pack/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "template/*",
+    "template.config.js"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "semver": "^7.6.3"
   },
   "homepage": "https://github.com/Abdullah0Dev/stylish-pack#readme",
   "keywords": [
@@ -32,6 +44,6 @@
   ],
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   }
 }
