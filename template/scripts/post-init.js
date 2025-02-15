@@ -2,14 +2,35 @@
 const fs = require("fs");
 const path = require("path");
 
+// Get the app name from the folder name
 const currentDir = process.env.INIT_CWD || __dirname;
-const appName = currentDir.split(path.sep).pop(); // Get project name from folder
+const bruhName = path.basename(currentDir);
+// Get the app name from package.json (source of truth)
+const packageJsonPath = path.join(process.cwd(), "package.json");
+
+if (!fs.existsSync(packageJsonPath)) {
+  console.error("❌ package.json not found. Ensure the project is initialized.");
+  process.exit(1);
+}  
+
+const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, "utf8"));
+const appName = packageJson.name;
+
+console.log("🚀 App Name->:", appName);
 
 if (!appName) {
-  console.error("❌ No app name detected. Using default 'MyApp'.");
+  console.error("❌ App name not found in package.json.");
   process.exit(1);
 }
+console.log("📂 Project Directory:", currentDir);
+console.log("🚀 App Name234:", appName);
+console.log('App Name:', process.env.INIT_CWD);
+console.log('App Name2:', process.argv[2]);
 
+if (!appName) {
+  console.error("❌ No app name detected. Provide an app name like: npx @react-native-community/cli@latest init MyApp");
+  process.exit(1);
+}
 const basePath = path.join(__dirname, "..");
 
 // 🔹 Function to replace old app names with the new one
