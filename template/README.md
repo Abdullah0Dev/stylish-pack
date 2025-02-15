@@ -24,7 +24,7 @@ This template includes:
 
 ### 1️⃣ Initialize a New Project:  
 ```bash  
-npx @react-native-community/cli init MyAwesomeApp --template stylish-pack  
+npx @react-native-community/cli init MyAwesomeApp --template devminds  
 ```  
 
 ### 2️⃣ Navigate to Your App Directory:  
