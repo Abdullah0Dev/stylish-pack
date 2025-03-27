@@ -1,0 +1,5 @@
+template/scripts/post-init.js
+
+
+,
+    "postinstall": "node ./template/scripts/post-init.js"

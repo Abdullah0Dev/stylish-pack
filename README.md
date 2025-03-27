@@ -37,6 +37,12 @@ npx @react-native-community/cli init MyAwesomeApp --template devminds
 cd MyAwesomeApp
 ```
 
+### Change Schema in IOS to your project:
+
+```bash
+npx rename devminds
+```
+then clean the IOS project
 ### 3️⃣ Start the App:
 
 For iOS:
@@ -95,3 +101,14 @@ If this template makes your life easier, consider giving it a ⭐ on GitHub or s
 
 ### Ready to build something awesome? Let's go! 🛠️✨
 
+ <!-- 
+ ! TIPS:
+ # generate icon -> IOS/ANDROID
+ https://icon.kitchen/
+ -> generate icon/splash screen -> 
+ https://apetools.webprofusion.com/#/tools/imagegorilla
+
+ -> change the app name run the script:
+  node scripts/post-init.js
+ 
+  -->

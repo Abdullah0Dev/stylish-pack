@@ -1,5 +1,5 @@
 {
-  "name": "meTube",
+  "name": "devminds",
   "version": "0.1.1",
   "private": true,
   "scripts": {
@@ -9,7 +9,11 @@
     "start": "react-native start",
     "test": "jest"
   },
+  "bin": {
+    "rename": "./scripts/rename.js devminds"
+  },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.1",
     "@react-native-community/template": "^0.76.6",
     "@react-navigation/bottom-tabs": "^7.2.0",
     "@react-navigation/elements": "^2.2.5",
@@ -18,17 +22,21 @@
     "@reduxjs/toolkit": "^2.5.0",
     "axios": "^1.7.9",
     "fs": "^0.0.1-security",
+    "lottie-react-native": "^7.2.2",
     "nativewind": "^4.1.23",
     "path": "^0.12.7",
     "react": "18.3.1",
     "react-native": "0.76.6",
     "react-native-eject": "^1.0.2",
     "react-native-gesture-handler": "^2.22.0",
-    "react-native-mmkv": "^3.2.0",
+    "react-native-image-picker": "^8.1.0",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-permissions": "^5.2.5",
     "react-native-reanimated": "^3.16.7",
     "react-native-safe-area-context": "^5.1.0",
     "react-native-screens": "^4.5.0",
     "react-native-splash-screen": "^3.3.0",
+    "react-native-swiper": "^1.6.0",
     "react-native-vector-icons": "^10.2.0",
     "react-redux": "^9.2.0",
     "tailwindcss": "^3.4.17"
